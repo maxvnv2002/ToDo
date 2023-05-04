@@ -1,0 +1,28 @@
+@import "./src/style/variables";
+
+.buttonGroup {
+  .button {
+    margin-left: 15px;
+    color: $black;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    transition: all 0.25s ease;
+    &Submit {
+      font-size: 15px;
+      padding: 10px 15px;
+      background: $gradientBg;
+      border-radius: 10px;
+    }
+    &Cancel {
+      font-size: 12px;
+      text-transform: uppercase;
+      padding: 5px 15px;
+      background: $blue;
+      border-radius: 15px;
+    }
+    &:hover {
+      background: $gradientBgHover;
+    }
+  }
+}

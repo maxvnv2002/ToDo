@@ -1,0 +1,27 @@
+@import "../../../style/variables";
+
+.task {
+  position: relative;
+  .input {
+    width: 400px;
+    padding: 15px 96px 15px 27px;
+    font-size: 16px;
+    color: $white;
+    border-radius: 10px;
+    border: none;
+    background: $semiBlack;
+    outline: none;
+    transition: all 0.25s ease;
+    &:focus {
+
+    }
+  }
+  .priority {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 2px;
+    height: 30px;
+    border-radius: 1px;
+  }
+}

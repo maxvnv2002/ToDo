@@ -1,0 +1,21 @@
+@import "./src/style/variables";
+
+.arrow {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid $blue;
+  border-right: 2px solid $blue;
+  margin: 0px 10px 5px;
+
+  transform: rotate(135deg);
+  transition: all .25s ease;
+  box-sizing: border-box;
+  &.asc {
+    transform: rotate(315deg) translateX(-4px) translateY(5px);
+  }
+  &.active {
+    border-top: 2px solid $semiBlack;
+    border-right: 2px solid $semiBlack;
+  }
+}

@@ -1,0 +1,18 @@
+@import "./src/style/variables";
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  .title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: $blue;
+  }
+  .plug {
+    width: 25px;
+    height: 25px;
+  }
+}

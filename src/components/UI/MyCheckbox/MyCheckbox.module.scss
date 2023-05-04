@@ -1,0 +1,24 @@
+@import "../../../style/variables";
+
+.checkboxLabel {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background: $gray;
+  border-radius: 7px;
+  input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  .check {
+    width: 25px;
+    height: 25px;
+    fill: $blue;
+  }
+}

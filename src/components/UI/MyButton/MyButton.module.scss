@@ -1,0 +1,27 @@
+@import '../../../style/variables';
+
+.buttonWrap {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  .button {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: $black;
+
+    background: $gradientBg;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    transition: all 0.25s ease;
+    &:hover {
+      transform: scale(1.1);
+    }
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}

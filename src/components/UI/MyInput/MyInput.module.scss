@@ -1,0 +1,25 @@
+@import "./src/style/variables";
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: $white;
+  font-size: 16px;
+  font-weight: 600;
+  background: $semiBlack;
+  box-sizing: border-box;
+  border-radius: 10px;
+  &Input {
+    width: 250px;
+    color: $white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    background: $semiBlack;
+    outline: none;
+    border: none;
+  }
+}
